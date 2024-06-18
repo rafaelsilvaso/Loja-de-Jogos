@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #313131;
+    color: rgb(240, 0, 0);
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    height: 300px;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.game {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.game-img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.buy-btn, .whatsapp-btn, form button {
+    background-color: #28a745;
+    border: none;
+    color: rgb(216, 216, 216);
+    padding: 15px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+    transition: background-color 0.5s ease;
+    background-color: rgb(243, 113, 7);
+}
+
+#colorInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#changeColorButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
